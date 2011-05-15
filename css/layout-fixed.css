@@ -171,7 +171,12 @@ body {
   display: inline;
   float: left; /* LTR */
   position: relative;
-  width: 305px;
+  width: 275px;
+  height: 160px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+  padding: 15px;
 }
 
 .region-triptych-first,

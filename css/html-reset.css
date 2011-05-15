@@ -427,3 +427,22 @@ sub {
 
 sup {
 }
+
+#triptych {
+  margin-top:   -20px;
+}
+
+#triptych h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#triptych .content {
+  line-height: 1.75em;
+  font-size: .75em;
+}
+
+#triptych img {
+  margin-right: 15px;
+  margin-bottom: 2px;
+} 
