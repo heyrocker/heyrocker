@@ -1,1 +1,3 @@
 This is the theme for my website at heyrocker.com. It is a zen subtheme. It is the first time I ever created a theme from scratch. Please keep this in mind when telling me how terrible it is. Thanks.
+
+As a coding nerd, I took much of the inspiration for this theme from my editor. The title font, Inconsolata, is my main coding font, and the color theme closely matches the blue-ish color theme I use in Textmate. I also wanted a serif font for text, and Droid Serif seemed like a nice geek choice to make. 
