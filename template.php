@@ -81,13 +81,6 @@ function heyrocker_preprocess_html(&$variables, $hook) {
     'type' => 'text/css',
   );
   drupal_add_html_head_link($attributes, $header = FALSE);
-
-  $attributes = array(
-    'href' => 'http://fonts.googleapis.com/css?family=Francois+One',
-    'rel' => 'stylesheet',
-    'type' => 'text/css',
-  );
-  drupal_add_html_head_link($attributes, $header = FALSE);
 }
 // */
 
