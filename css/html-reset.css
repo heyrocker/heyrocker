@@ -231,6 +231,7 @@ ul.menu li,
 li.expanded,
 li.collapsed,
 li.leaf /* Drupal override */ {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -446,3 +447,23 @@ sup {
   margin-right: 15px;
   margin-bottom: 2px;
 } 
+
+#block-menu-secondary-links {
+  background-color: #120E26;
+  margin-top: -25px;
+}
+
+
+#block-menu-secondary-links li a {
+  padding: 20px 21px 20px 21px;
+  list-style-type: none;
+  list-style-image: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  font-size: 1em; /* 12px x 1.5 = 18px */
+  line-height: 1.5em;
+  font-family: 'Gill Sans', arial, serif;
+  text-align: left; /* LTR */
+  float: left; /* LTR */
+}
