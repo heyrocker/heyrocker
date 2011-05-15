@@ -165,15 +165,9 @@ body {
 /*
  * Triptych
  */
- #triptych,
-   width: 960px;
-   margin-left: auto;
-   margin-right: auto;
- }
-
 .region-triptych-first,
 .region-triptych-middle,
-.region-triptych-last,
+.region-triptych-last {
   display: inline;
   float: left; /* LTR */
   position: relative;
