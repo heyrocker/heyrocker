@@ -163,6 +163,14 @@
 
   </div></div><!-- /#main, /#main-wrapper -->
 
+  <?php if ($page['triptych_first'] || $page['triptych_middle'] || $page['triptych_last']): ?>
+    <div id="triptych-wrapper"><div id="triptych" class="clearfix">
+      <?php print render($page['triptych_first']); ?>
+      <?php print render($page['triptych_middle']); ?>
+      <?php print render($page['triptych_last']); ?>
+    </div></div> <!-- /#triptych, /#triptych-wrapper -->
+  <?php endif; ?>
+
   <?php print render($page['footer']); ?>
 
 </div></div><!-- /#page, /#page-wrapper -->
