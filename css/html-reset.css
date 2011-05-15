@@ -368,6 +368,7 @@ a:active {
   line-height: 1.5em;
   color: #CCCCCC;  
   font-family: 'Gill Sans', arial, serif;
+  text-shadow: #666666 1px 1px 1px;
 }
 
 #main-menu.links .last{
