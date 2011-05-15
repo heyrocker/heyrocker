@@ -360,7 +360,7 @@ a:active {
 }
 
 #main-menu.links li a {
-  padding: 8px 21px 8px 21px;
+  padding: 8px 21px 4px 21px;
   text-transform: uppercase;
   text-decoration: none;
   display: block;
