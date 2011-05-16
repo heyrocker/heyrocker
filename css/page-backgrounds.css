@@ -12,7 +12,7 @@
 
 body {
   background-color: #777B88;
-  background-image:url('/sites/all/themes/heyrocker/images/bg.png')
+  background-image:url('../images/bg.png')
 }
 
 #page-wrapper {
