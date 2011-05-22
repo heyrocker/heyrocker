@@ -177,6 +177,7 @@ body {
   -webkit-box-shadow: 0 0 5px#888;
   box-shadow: 0 0 5px #888;
   padding: 15px;
+  background-color: #DDD;
 }
 
 .region-triptych-first,

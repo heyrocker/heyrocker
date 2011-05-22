@@ -45,10 +45,6 @@ li a.active {
 #main-menu {
 }
 
-#secondary-menu {
-  float: right;
-}
-
 /*
  * Menu blocks
  */
@@ -62,4 +58,27 @@ li a.active {
  * these limitations, see http://drupal.org/project/menu_block
  */
 .block-menu-block {
+}
+
+#secondary-links {
+  height: 2.6em;
+  background-color: #120E26;
+}
+
+#secondary-links ul {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5px;
+  padding-top: 7px;
+}
+
+#secondary-menu.links li a {
+  padding: 0px 15px 4px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline;
+  font-size: 1em; /* 12px x 1.5 = 18px */
+  line-height: 1.5em;
+  color: #CCCCCC;  
+  font-family: 'Gill Sans', arial, serif;
 }
