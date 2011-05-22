@@ -7,7 +7,8 @@
 /*
  * The active item in a Drupal menu
  */
-li a.active {
+#main-menu li a.active, 
+#secondary-links li a.active {
   background-color: #003F8E;
 }
 
@@ -68,12 +69,12 @@ li a.active {
 #secondary-links ul {
   margin-left: auto;
   margin-right: auto;
-  margin-top: -5px;
+  margin-top: -6px;
   padding-top: 7px;
 }
 
 #secondary-menu.links li a {
-  padding: 0px 15px 4px 15px;
+  padding: 9px 15px 10px 15px;
   text-transform: uppercase;
   text-decoration: none;
   display: inline;
