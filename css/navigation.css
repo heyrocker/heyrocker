@@ -62,19 +62,27 @@
 }
 
 #secondary-links {
-  height: 2.6em;
+  height: 3em;
   background-color: #120E26;
 }
 
-#secondary-links ul {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -6px;
-  padding-top: 7px;
+#service-links, 
+#secondary-menu {
+  display: inline;
 }
 
+#secondary-menu {
+  float: left;
+  margin-top: 10px;
+}
+
+#service-links {
+  float: right;
+  margin-top: 0px;
+}
+
+#service-links.links li a, 
 #secondary-menu.links li a {
-  padding: 9px 15px 10px 15px;
   text-transform: uppercase;
   text-decoration: none;
   display: inline;
@@ -82,4 +90,47 @@
   line-height: 1.5em;
   color: #CCCCCC;  
   font-family: 'Gill Sans', arial, serif;
+}
+
+#secondary-menu.links li a {
+  padding: 12px 15px 14px 15px;
+}
+
+#service-links.links li a {
+  margin-top: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 12px 15px 25px 25px;
+  float: right;
+}
+
+.drupal a {
+  background-image: url('/sites/all/themes/heyrocker/images/drupal.png');
+  background-repeat: no-repeat;
+}
+
+.linkedin a {
+  background-image: url('/sites/all/themes/heyrocker/images/linkedin.png');
+  background-repeat: no-repeat;
+}
+
+.flickr a {
+  background-image: url('/sites/all/themes/heyrocker/images/flickr.png');
+  background-repeat: no-repeat;
+}
+
+.github a {
+  background-image: url('/sites/all/themes/heyrocker/images/github_alt.png');
+  background-repeat: no-repeat;
+}
+
+
+.twitter a {
+  background-image: url('/sites/all/themes/heyrocker/images/twitter_alt.png');
+  background-repeat: no-repeat;
+}
+
+.lastfm a {
+  background-image: url('/sites/all/themes/heyrocker/images/last.fm.png');
+  background-repeat: no-repeat;
 }

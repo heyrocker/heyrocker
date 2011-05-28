@@ -67,6 +67,33 @@
  * @see zen_preprocess_page()
  * @see template_process()
  */
+
+$service_links = array(
+  'flickr' => array(
+    'title' => '',
+    'href' => 'http://www.flickr.com/photos/heyrocker'
+  ),
+  'lastfm' => array(
+    'title' => '',
+    'href' => 'http://www.last.fm/user/heyrocker'
+  ),
+  'linkedin' => array(
+    'title' => '',
+    'href' => 'http://www.linkedin.com/in/gdunlap'
+  ),
+  'twitter' => array(
+    'title' => '',
+    'href' => 'https://twitter.com/heyrocker'
+  ),
+  'github' => array(
+    'title' => '',
+    'href' => 'https://github.com/heyrocker'
+  ),
+  'drupal' => array(
+    'title' => '',
+    'href' => 'http://drupal.org/user/128537'
+  ),
+)
 ?>
 
 <div id="page-wrapper"><div id="page">
@@ -165,12 +192,15 @@
         'id' => 'secondary-menu',
         'class' => array('links', 'inline', 'clearfix'),
       ),
-      'heading' => array(
-        'text' => $secondary_menu_heading,
-        'level' => 'h2',
-        'class' => array('element-invisible'),
+    )); ?>
+    <?php print theme('links', array(
+      'links' => $service_links,
+      'attributes' => array(
+        'id' => 'service-links',
+        'class' => array('links', 'inline', 'clearfix'),
       ),
     )); ?>
+    
   </div>
   <?php print render($page['footer']); ?>
 
