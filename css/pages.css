@@ -70,6 +70,7 @@ div#site-name /* The name of the website */ {
   line-height: 2em;
   margin-top: -83px;
   font-family: 'Inconsolata', arial, serif;
+  text-shadow: #fff 1px 0px 1px ;
 }
 
 #site-name a:link,
