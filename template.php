@@ -67,20 +67,8 @@
  * @param $hook
  *   The name of the template being rendered ("html" in this case.)
  */
+/* -- Delete this line if you want to use this function
 function heyrocker_preprocess_html(&$variables, $hook) {
-  $attributes = array(
-    'href' => 'http://fonts.googleapis.com/css?family=Inconsolata',
-    'rel' => 'stylesheet',
-    'type' => 'text/css',
-  );
-  drupal_add_html_head_link($attributes, $header = FALSE);
-
-  $attributes = array(
-    'href' => 'http://fonts.googleapis.com/css?family=Droid+Serif',
-    'rel' => 'stylesheet',
-    'type' => 'text/css',
-  );
-  drupal_add_html_head_link($attributes, $header = FALSE);
 }
 // */
 
