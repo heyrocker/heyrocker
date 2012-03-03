@@ -24,7 +24,21 @@
  * to resize the font in the browser and produces the most consistent results
  * across different browsers.
  */
-body {
+ @font-face {
+   font-family: 'Inconsolata';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Inconsolata'), local('Inconsolata'), url('../fonts/Inconsolata.woff') format('woff');
+ }
+ 
+ @font-face {
+   font-family: 'Droid Serif';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Droid Serif'), local('DroidSerif'), url('../fonts/DroidSerif.woff') format('woff');
+ }
+
+ body {
   font-size: 100%; /* Fixes exaggerated text resizing in IE6 and IE7 */
 }
 

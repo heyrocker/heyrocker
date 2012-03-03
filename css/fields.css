@@ -25,8 +25,18 @@
 .field-type-file {
 }
 
-.field-type-taxonomy-term-reference {
+.field-type-taxonomy-term-reference .field-item {
+  display: inline;
+  padding: 8px 8px 8px 8px;
 }
+
+.field-type-taxonomy-term-reference .field-label {
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-family: 'Inconsolata', arial, serif;
+  margin-top: 5px;
+}
+
 
 .field-type-number-integer {
 }
@@ -66,6 +76,7 @@
  * Named fields
  */
 .field-name-body {
+  margin-bottom: 20px;
 }
 
 .field-name-field-image {
